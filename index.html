@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/p5.js-svg@1.3.1"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+      
+      <label>engine par tables nka</label>
+      <input name="engine" type="file" onchange="createEngineParSVG()" /><br />
+      
+      <label>mapping cc tables nka</label>
+      <input name="cc" type="file" onchange="createMappingCCsSVG()" /><br />
+      
+      <label>internal modulation table txt</label>
+      <input name="modTable" type="file" onchange="createModTableSVG()" /><br />
+      
+  </body>
+</html>
