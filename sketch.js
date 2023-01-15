@@ -1,4 +1,4 @@
-let width = 660
+let width = 512
 let height = 72
 
 function setup(){} // so that p5 works
