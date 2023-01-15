@@ -39,7 +39,7 @@ function createEngineParSVG() {
 			svg[0] += ' ' + '0,' + (mod_i+1) * height
 			svg[0] += '" '
 			svg[0] += 'fill = "black" '
-			svg[0] += 'stroke = "black" '
+			svg[0] += 'stroke = "none" '
 			svg[0] += '/>\n'
 		}
 		svg[0] += '</svg>'
@@ -91,7 +91,7 @@ function createMappingCCsSVG() {
 			svg[0] += ' ' + '0,' + (mod_i+1) * height
 			svg[0] += '" '
 			svg[0] += 'fill = "black" '
-			svg[0] += 'stroke = "black" '
+			svg[0] += 'stroke = "none" '
 			svg[0] += '/>\n'
 		}
 		svg[0] += '</svg>'
@@ -145,7 +145,7 @@ function createModTableSVG() {
 		svg[0] += ' ' + '0,' + height
 		svg[0] += '" '
 		svg[0] += 'fill = "black" '
-		svg[0] += 'stroke = "black" '
+		svg[0] += 'stroke = "none" '
 		svg[0] += '/>\n'
 		svg[0] += '</svg>'
 		saveStrings(svg, file.name.slice(0, -4), "svg")
